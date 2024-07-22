@@ -1,0 +1,43 @@
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+#container {
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: #f6f6f6;
+    flex-flow: column;
+    border-radius: 60px;
+}
+#container img{
+    width: 40px;
+    
+}
+ #btn {
+    font-size:30px ;
+    font-weight: 400;
+    border-radius: 40px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    cursor: pointer;
+    
+}
